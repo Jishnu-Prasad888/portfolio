@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jishnu Prasad</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg+xml" href="assets\img\favicon.svg" />
+    <link rel="apple-touch-icon" href="assets\img\favicon.svg" />
+</head>
+
+<body>
+
+    <main class="main-container">
+        <aside class="sidebar">
+            <button class="nav-btn" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' });">
+                <img src="assets/img/person.svg" width="16" height="16" alt="About"> About
+            </button>
+            <button class="nav-btn"
+                onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });">
+                <img src="assets/img/wrench.svg" width="16" height="16" alt="Projects"> Projects
+            </button>
+            <button class="nav-btn"
+                onclick="document.getElementById('experience').scrollIntoView({ behavior: 'smooth' });">
+                <img src="assets/img/award.svg" width="16" height="16" alt="Experience"> Experience
+            </button>
+            <button class="nav-btn"
+                onclick="document.getElementById('education').scrollIntoView({ behavior: 'smooth' });">
+                <img src="assets/img/education.svg" width="16" height="16" alt="Education"> Education
+            </button>
+            <button class="tech-stack"
+                onclick="document.getElementById('tech-stack').scrollIntoView({ behavior: 'smooth' });">
+                <img src="assets/img/toolbox.svg" width="16" height="16" alt="toolbox"> tech-stack
+            </button>
+            <button class="nav-btn"
+                onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">
+                <img src="assets/img/contact.svg" width="16" height="16" alt="Contact"> Contact
+            </button>
+            <button class="nav-btn" onclick="document.getElementById('resume').scrollIntoView({ behavior: 'smooth' });">
+                <img src="assets/img/page.svg" width="16" height="16" alt="Resume"> Resume
+            </button>
+        </aside>
+
+        <section class="content-area">
+            <div class="about-section">
+                <div class="profile-container">
+                    <div class="image-wrapper">
+                        <div class="blur-background"></div>
+                        <img src="assets/img/DSC_3456.png" width="120" height="150" alt="Profile Pic"
+                            class="profile-pic-img">
+                    </div>
+                </div>
+                <div class="info-container">
+                    <h1>Jishnu Prasad</h1>
+                    <h2>Electrical and Electronics Engineering Department</h2>
+                    <h2>National Institute Of Technology Karnataka</h2>
+                </div>
+            </div>
+            <div id="about" class="content-square-about">
+                <h2 class="about-title">About Me !</h2>
+                <nav class="content-nav">
+                    <p>Hello! I'm Jishnu Prasad, an enthusiastic maker and Electrical & Electronics Engineering student
+                        at the National Institute of Technology Karnataka.</p>
+
+                    <p>Driven by insatiable curiosity and a desire to create meaningful impact, I'm constantly expanding
+                        my knowledge while seeking opportunities to give back to the community that has shaped me.</p>
+
+                    <p>Currently, I'm focusing my efforts on Robotics and Cybersecurity, developing specialized skills
+                        to become a valuable contributor in these transformative fields.</p>
+
+                    <p>Thank you for visiting my portfolio - I'm excited to share my journey with you!</p>
+                </nav>
+            </div>
+            <br>
+            <div id="projects" class="content-square-project">
+                <h2 class="about-title">Some of my Projects !</h2>
+                <nav class="content-project">
+                    <h4>Neural Network from Scratch</h4>
+                    <p>Implementation of concepts from "Neural Networks from Scratch" using only NumPy. Includes layers,
+                        activation functions, loss functions, backpropagation, and optimizers. Key components: Layers
+                        and Data, Activation Functions, Loss Functions, Backpropagation, Optimization. Technologies:
+                        Python 3.x, NumPy, Matplotlib.</p>
+
+                    <h4>Game Engine in Java</h4>
+                    <p>2D Game Engine to play Mario using Entity Component System architecture and Object-Oriented
+                        Programming. Features single player mode with version control using Git/GitHub. Uses IMGUI
+                        library for graphic rendering. <i> Currently in progress </i>.</p>
+
+                    <h4>Multithreaded Webserver with Thread Pooling in Java</h4>
+                    <p>HTTP multithreaded webserver and client in Java utilizing thread pooling with web sockets and
+                        Docker for containerization.</p>
+
+                    <h4>7-Bit Display Control Using OpenCV</h4>
+                    <p>Custom 7-bit display board using LEDs that displays numbers recognized from hand gestures. Uses
+                        OpenCV and TensorFlow for number recognition, with Arduino UNO and MicroPython for signal
+                        translation to the display.</p>
+                </nav>
+            </div>
+            <br>
+            <div id="experience" class="content-square-experience">
+                <h2 class="about-title">My Experience!</h2>
+                <nav class="content-experience">
+                    <div class="experience-item" style="background-color: #f0f7ff;">
+                        <h3>Yaapt <span class="date">March 2024 - Present</span></h3>
+                        <p class="role">Content Creation & Strategy | Marketing & Management Intern</p>
+                        <ul class="responsibilities">
+                            <li>Led content strategy for Project BRIDE</li>
+                            <li>Handled content creation and marketing initiatives</li>
+                            <li>Gained proficiency in Jira and team coordination tools</li>
+                            <li>Developed strategic planning skills</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item" style="background-color: #fff0f5;">
+                        <h3>Center for System Design <span class="date">Sept 2024 - Jan 2025</span></h3>
+                        <p class="role">Research & Development Intern (Team Leader & Hardware Engineer)</p>
+                        <ul class="responsibilities">
+                            <li>Served as Creative Lead, ideating potential projects</li>
+                            <li>Managed hardware development and team coordination</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item" style="background-color: #f0fff0;">
+                        <h3>SMILE Club <span class="date">Jan 2025 - Present</span></h3>
+                        <p class="role">Publicity Coordinator</p>
+                        <ul class="responsibilities">
+                            <li>Team leader for Rasamaya Manjari competition (Adiparampara event)</li>
+                            <li>Executed successful event under tight budget and exam-period constraints</li>
+                            <li>Pioneered off-campus sponsor outreach (first in club history)</li>
+                            <li>Managed logistics and volunteer coordination</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item" style="background-color: #fffaf0;">
+                        <h3>SENA (Siksha Evam Naitik Abhiyan) [NGO] <span class="date">Part-Time Educator</span></h3>
+                        <p class="role">Intern</p>
+                        <ul class="responsibilities">
+                            <li>Taught moral values and etiquette to primary school students</li>
+                            <li>Conducted English speaking classes for NITK Kannada medium middle school</li>
+                            <li>Coordinated and recruited new team members</li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <br>
+            <div id="education" class="content-square-education">
+                <h2 class="section-title">Education</h2>
+
+                <div class="education-item">
+                    <h3>National Institute of Technology Karnataka <span class="date">Sep 2024 – Present</span></h3>
+                    <div class="role">B.Tech in Electrical and Electronics Engineering</div>
+                    <ul class="course-list">
+                        <li>Linear Algebra</li>
+                        <li>Analysis of Electrical Circuits</li>
+                        <li>Ordinary Differential Equations (Multiple Order)</li>
+                        <li>Sequence and Series</li>
+                        <li>Introduction to Quantum Physics</li>
+                        <li>Corrosion and Its Control</li>
+                        <li>Electrochemistry</li>
+                        <li>Mechanics of Rigid Bodies</li>
+                        <li>Introduction to Mechanical Engineering</li>
+                        <li>Higher Order Integrals</li>
+                    </ul>
+                </div>
+
+                <div class="education-item">
+                    <h3>OpenCV University</h3>
+                    <div class="role">
+                        <a href="https://courses.opencv.org/certificates/4c91e9d0d39045ae8a2346dc582bdb12"
+                            target="_blank">2) OpenCV Bootcamp <span class="date">Grade: 94%</span>
+                        </a>
+                    </div>
+                    <ul class="course-list">
+                        <li>Basic Image Manipulation</li>
+                        <li>Image Enhancement</li>
+                        <li>Image Annotation</li>
+                        <li>Image Filtering</li>
+                        <li>Image Features and Alignment</li>
+                        <li>Object Tracking</li>
+                        <li>Face Detection</li>
+                        <li>TensorFlow Object Detection</li>
+                        <li>Pose Estimation with OpenPose</li>
+                    </ul>
+
+                    <div class="role">
+                        <a href="https://courses.opencv.org/certificates/b76ed708c6914ad9869a5e259d502069"
+                            target="_blank"> 1) TensorFlow-Keras Bootcamp <span class="date">Grade: 100%</span>
+                        </a>
+                    </div>
+                    <ul class="course-list">
+                        <li>Fundamentals of a Neural Network</li>
+                        <li>Linear Regression</li>
+                        <li>MNIST Digit Classification using MLP</li>
+                        <li>CNN Fundamentals</li>
+                        <li>CIFAR-10 Classification using CNN</li>
+                        <li>Image Classification with Pretrained ImageNet Models</li>
+                        <li>Transfer Learning and Finetuning</li>
+                        <li>Semantic Segmentation</li>
+                        <li>Introduction to Object Detection</li>
+                    </ul>
+                </div>
+
+                <div class="education-item">
+                    <h3>MATLAB Academy</h3>
+                    <div class="role"">
+                        <a class=" role"
+                        href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=f91d3f60-29db-4fd3-9bcb-0c593de009d3&"
+                        target="_blank">
+                        MATLAB Onramp
+                        </a></div>
+                    <ul class="course-list">
+                        <li>Vectors and Matrices</li>
+                        <li>Arrays</li>
+                        <li>Function Calls</li>
+                        <li>Documentation</li>
+                        <li>Plots</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div id="tech-stack" class="content-square-techstack">
+                <h2 class="section-title">Tech Stack</h2>
+                <div class="tech-icons-grid">
+                    <div class="tech-item">
+                        <img src="assets/img/python.svg" alt="Python" />
+                        <span>Python</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets/img/django.svg" alt="Django" />
+                        <span>Django</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets/img/react.svg" alt="React" />
+                        <span>React</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets/img/html.svg" alt="HTML" />
+                        <span>HTML</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets/img/css.svg" alt="CSS" />
+                        <span>CSS</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets/img/javascript.svg" alt="JavaScript" />
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets\img\cpp.svg" alt="C++" />
+                        <span>C++</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets\img\java.svg" alt="Java" />
+                        <span>Java</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets\img\linux.svg" alt="Linux" />
+                        <span>Linux</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets\img\git.svg" alt="Git" />
+                        <span>Git</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets\img\github.svg" alt="GitHub" />
+                        <span>GitHub</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets\img\markdown.svg" alt="Markdown" />
+                        <span>Markdown</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets\img\canva.svg" alt="Canva" />
+                        <span>Canva</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets\img\gimp.svg" alt="GIMP" />
+                        <span>GIMP</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets\img\figma.svg" alt="Figma" />
+                        <span>Figma</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets\img\kdenlive.svg" alt="Kdenlive" />
+                        <span>Kdenlive</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="assets\img\inkscape.svg" alt="Inkscape" />
+                        <span>Inkscape</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div id="contact" class="content-square-contact">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <img src="assets/img/phone.svg" alt="Phone Icon" />
+                        <span>9844778936</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="assets/img/mailbox.svg" alt="Email Icon" />
+                        <a href="mailto:thisisjishnuprasad888@gmail.com">thisisjishnuprasad888@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <img src="assets/img/LinkedIn.svg" alt="LinkedIn Icon" />
+                        <a href="https://www.linkedin.com/in/jishnu-prasad-ba90a9328/"
+                            target="_blank">linkedin.com/in/jishnu-prasad</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div id="resume" class="content-square-resume">
+                <h2 class="resume-title">My Resume!</h2>
+                <div class="resume-info">
+                    <h4>Read more about me here:</h4>
+                    <a href="https://drive.usercontent.google.com/u/1/uc?id=1_mcXAeVa2wRsmBFXVfsoJndmJn2mzzYJ&export=download"
+                        target="_blank" class="resume-link">My Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bottom-nav-container">
+            <div class="bottom-nav">
+                <a href="https://www.linkedin.com/in/jishnu-prasad-ba90a9328/"><img src="assets/img/LinkedIn.svg"
+                        alt="LinkedIn" /></a>
+                <a href="mailto:thisisjishnuprasad888@gmail.com"><img src="assets/img/Gmail-Logo.wine.svg"
+                        alt="Email" /></a>
+                <a href="https://github.com/Jishnu-Prasad888"><img src="assets/img/github.svg" alt="GitHub" /></a>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
